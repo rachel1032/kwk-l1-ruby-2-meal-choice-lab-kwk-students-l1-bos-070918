@@ -5,6 +5,7 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on
 
+def breakfast =
 breakfast = #{breakfast}
 
 
