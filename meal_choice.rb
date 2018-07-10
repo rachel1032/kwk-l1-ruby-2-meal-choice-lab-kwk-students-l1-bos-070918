@@ -5,11 +5,10 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on
 
-def breakfast ("frosted flakes") 
+def breakfast(food1 = "frosted flakes") 
+breakfast(scrambled eggs)
 
-
-
-
+puts "Morning is the best time for #{breakfast}"
 
 
 # Call the methods with puts and your own arguments here. Like this:
