@@ -6,17 +6,17 @@ end
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on
 
 def breakfast(food1 = "frosted flakes") 
-breakfast(food2)
+puts "Morning is the best time for #{food1}"
+end
 
-puts "Morning is the best time for #{food2}"
+def lunch(food2= "grilled cheese")
+puts "Lunch is the best time for #{food2}"
+end
 
-def lunch(food3= frosted flakes)
-lunch(food4)
+def dinner(food3= "salmon")
+puts "Dinner is the best time for #{food3}"
+end
 
-puts "Lunch is the best time for #{food3}"
-
-def dinner(food4= )
-puts "Dinner is the best time for #{"
 # Call the methods with puts and your own arguments here. Like this:
 puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
