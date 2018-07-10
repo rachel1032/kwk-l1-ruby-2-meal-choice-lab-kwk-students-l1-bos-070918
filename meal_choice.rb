@@ -7,6 +7,7 @@ end
 
 def breakfast(food1 = "frosted flakes")
  "Morning is the best time for #{food1}"
+ puts #{food1}
 end
 
 def lunch(food2= "grilled cheese")
